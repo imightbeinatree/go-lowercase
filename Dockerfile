@@ -10,4 +10,4 @@
 
 FROM scratch
 ADD ./lowercase /lowercase
-ADD http://geec-client.s3.amazonaws.com/runner /runner
+ADD ./runner /runner
