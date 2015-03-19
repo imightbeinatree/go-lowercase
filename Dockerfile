@@ -10,4 +10,3 @@
 
 FROM scratch
 ADD ./lowercase /lowercase
-ADD ./runner /runner
