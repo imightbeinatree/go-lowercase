@@ -1,10 +1,10 @@
 microservice:
   name: 'whisper'
   description: 'lowercases input data'
-  docker_image: 'imightbeinatree/lowercase'
-  docker_image_tag: '0.6'
+  docker_image: 'imightbeinatree/whisper'
+  docker_image_tag: '0.1'
   github_url: 'https://github.com/imightbeinatree/go-lowercase'
-  docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/lowercase/'
+  docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/whisper/'
   category: 'text'
   tags: ['text', 'strings']
   developer_name: 'imbiat'
