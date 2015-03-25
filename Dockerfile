@@ -10,3 +10,4 @@
 
 FROM scratch
 ADD ./lowercase /lowercase
+ADD ./microservice.yml /microservice.yml

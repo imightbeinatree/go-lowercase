@@ -1,0 +1,24 @@
+microservice:
+  name: 'whisper'
+  description: 'lowercases input data'
+  docker_image: 'imightbeinatree/lowercase'
+  docker_image_tag: '0.6'
+  github_url: 'https://github.com/imightbeinatree/go-lowercase'
+  docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/lowercase/'
+  category: 'text'
+  tags: ['text', 'strings']
+  developer_name: 'imbiat'
+  developer_type: 'User'
+  published: true
+  command: '/lowercase [string]'
+  inputs:
+    string:
+      param_type: 'String'
+      regex: ''
+      required: true
+      secure: false
+      description: 'string to be lowercased'
+  outputs:
+    string:
+      param_type: 'String'
+      description: 'the lowercased string'
