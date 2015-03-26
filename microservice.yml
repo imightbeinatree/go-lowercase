@@ -14,7 +14,7 @@ microservice:
   inputs:
     string:
       param_type: 'String'
-      regex: ''
+      regex: '^.*$'
       required: true
       secure: false
       description: 'string to be lowercased'
