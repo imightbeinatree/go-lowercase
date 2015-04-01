@@ -1,8 +1,9 @@
 microservice:
+  spec_version: '2.0'
   name: 'whisper'
   description: 'lowercases input data'
   docker_image: 'imightbeinatree/whisper'
-  docker_image_tag: '0.1'
+  docker_image_tag: '0.2'
   github_url: 'https://github.com/imightbeinatree/go-lowercase'
   docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/whisper/'
   category: 'text'
